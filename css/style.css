@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*its a better practice to have * inherit box-sizing from the body*/ }
+
+/*Base styles*/
+html {
+  /*use 10px to make rem units simple to calculate, and make it a percentage for accessiblity (62.5% of browsers default 16px is 10px)*/
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+
+h1 {
+  color: #ff7730; }
+
+header {
+  height: 85vh;
+  background-color: #f7f7f7;
+  padding: 0; }
